@@ -1,0 +1,29 @@
+
+Algorithm
+
+* play game.
+
+1- user(player) inputs name.
+
+2- setup user and the cards stack(initialize score to 300pts).
+
+3- shuffle cards.
+
+4- display current card.
+
+5- get user guess of the next card.
+
+6- if user guess is valid(withing range and is a number) go to step 7, else repeat step 5.
+
+7- compare with the next card.
+
+8- if guess was correct add 100pts to player score.
+
+9- if guess was wrong, check if score is less than zero(0) and end game(game over).
+
+10- else if score is greater than zero, ask user if he wants to continue or quit
+
+11- If user wants to continue go to step 5
+
+12 - else, end game and print message (Thanks for playing the game, your total score is {score})
+
