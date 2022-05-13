@@ -62,14 +62,14 @@ class Hilo:
             self.get_guess()
         elif choice == 'n':
             self.player.show_score()
-            print('Thank you for playing ' + self.player.name + ', see you next time.')
+            print('\nThank you for playing ' + self.player.name + ', see you next time.')
         else:
             print('invalid choice')
             self.play_again()
 
     def start_game(self):
         # welcome message.
-        print('Welcome to HILO game...')
+        print('\nWelcome to HILO game...')
 
         # get player name
         player_name = input('\nPlease enter your name/nick name to get started: ')
